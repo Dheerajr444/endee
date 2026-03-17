@@ -1,0 +1,28 @@
+# ─────────────────────────────────────────────
+#  RAG Document Chatbot – Dependencies
+#  Endee Vector DB + sentence-transformers + Streamlit
+# ─────────────────────────────────────────────
+
+# Endee vector database Python SDK
+endee
+
+# Sentence embeddings (HuggingFace all-MiniLM-L6-v2)
+sentence-transformers>=2.2.0
+
+# HTTP requests (used for health-checks & LLM calls)
+requests>=2.31.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Streamlit chatbot UI
+streamlit>=1.35.0
+
+# Anthropic SDK for LLM generation (optional – swap for OpenAI / local Ollama)
+anthropic>=0.25.0
+
+# Rich terminal output for debugging
+rich>=13.7.0
+
+# Numpy (sentence-transformers dependency)
+numpy>=1.24.0
